@@ -1,0 +1,193 @@
+CRITICAL - 2024-09-01 05:56:35 --> ErrorException: Undefined variable $books
+[Method: GET, Route: librairyAdmin]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 05:56:41 --> ErrorException: Undefined variable $book
+[Method: GET, Route: librairyAdmin]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $book', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 05:56:57 --> ErrorException: Undefined variable $manja
+[Method: GET, Route: librairyAdmin]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $manja', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 05:57:13 --> ErrorException: Undefined variable $book
+[Method: GET, Route: librairyAdmin]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $book', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 05:57:22 --> ErrorException: Undefined variable $books
+[Method: GET, Route: librairyAdmin]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 06:03:07 --> ErrorException: Undefined variable $books
+[Method: GET, Route: librairyAdmin]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 06:12:14 --> ErrorException: Undefined variable $books
+[Method: GET, Route: librairyAdmin]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 06:12:16 --> ErrorException: Undefined variable $books
+[Method: GET, Route: librairyAdmin]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 06:27:31 --> ErrorException: Undefined variable $books
+[Method: GET, Route: librairyAdmin]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 06:34:40 --> ErrorException: Undefined variable $book
+[Method: GET, Route: librairy]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $book', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 06:38:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "librairyAdmin.php"
+[Method: GET, Route: addBook]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('librairyAdmin.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairyAdmin', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('librairyAdmin')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->book()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 06:39:17 --> ErrorException: Undefined variable $books
+[Method: GET, Route: addBook]
+in APPPATH\Views\librairy.php on line 28.
+ 1 APPPATH\Views\librairy.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('librairy')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->book()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-01 07:34:25 --> ErrorException: Undefined variable $book
+[Method: GET, Route: addBook]
+in APPPATH\Views\addBook.php on line 27.
+ 1 APPPATH\Views\addBook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $book', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\addBook.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\addBook.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('addBook', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('addBook')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->book()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')

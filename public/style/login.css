@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(a148\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(228, 248, 229); */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.342);
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding: 10px 50px;
+    margin-top: 80px;
+}
+
+.titre {
+    padding: 20px 0;
+}
+
+.connect {
+    border: 2px solid rgba(12, 151, 116, 0.795);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.login li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.login input {
+    background: rgba(255, 255, 255, 0.432);
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+    width: 225px;
+    transition: 0.5s;
+}
+
+.login input:hover {
+    transform: translate(-5px, -5px);
+    transition: 0.3s;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.288);
+}
+
+.login input:focus {
+    transform: translate(-3px, -3px);
+    transition: 0.3s;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.288);
+    outline: none;
+}
+
+.login .btn {
+    background: rgba(12, 151, 116, 0.795);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 0;
+    transition: 0.5s;
+    color: rgba(17, 17, 17, 0.568);
+}
+
+.login .btn:hover {
+    transform: translate(-5px, -5px);
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+
+.login .btn:focus {
+    transform: translate(-2px, -2px);
+    border: 2px solid rgba(212, 230, 225, 0.795);
+    transition: 0.1s;
+}
+
+p {
+    color: black;
+}

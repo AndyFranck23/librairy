@@ -1,0 +1,324 @@
+CRITICAL - 2024-09-03 16:27:36 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: listeCommand]
+in APPPATH\Views\commande.php on line 39.
+ 1 APPPATH\Views\commande.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\commande.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\commande.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('commande', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('commande', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->command()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 16:28:19 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: listeCommand]
+in APPPATH\Views\commande.php on line 39.
+ 1 APPPATH\Views\commande.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\commande.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\commande.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('commande', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('commande', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->command()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 16:28:20 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: listeCommand]
+in APPPATH\Views\commande.php on line 39.
+ 1 APPPATH\Views\commande.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\commande.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\commande.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('commande', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('commande', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->command()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 16:38:57 --> ErrorException: Undefined array key "delai"
+[Method: GET, Route: listeBook]
+in APPPATH\Views\librairy.php on line 47.
+ 1 APPPATH\Views\librairy.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "delai"', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\librairy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('librairy', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('librairy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 16:55:46 --> ParseError: syntax error, unexpected single-quoted string "user_id"
+[Method: GET, Route: listeBook]
+in APPPATH\Controllers\Home.php on line 75.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 17:14:47 --> ErrorException: Undefined variable $books
+[Method: POST, Route: login]
+in APPPATH\Views\bookUser.php on line 34.
+ 1 APPPATH\Views\bookUser.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookUser', [], true)
+ 5 APPPATH\Controllers\loginController.php(45): view('bookUser')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 17:15:16 --> ErrorException: Undefined variable $books
+[Method: POST, Route: login]
+in APPPATH\Views\bookUser.php on line 34.
+ 1 APPPATH\Views\bookUser.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookUser', [], true)
+ 5 APPPATH\Controllers\loginController.php(45): view('bookUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 17:24:19 --> TypeError: Unsupported operand types: string + string
+[Method: POST, Route: login]
+in APPPATH\Controllers\loginController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 17:26:26 --> ErrorException: Undefined variable $books
+[Method: GET, Route: bookUser8]
+in APPPATH\Views\bookUser.php on line 34.
+ 1 APPPATH\Views\bookUser.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookUser', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('bookUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->bookUser('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 17:26:46 --> ErrorException: Undefined variable $books
+[Method: GET, Route: bookUser8]
+in APPPATH\Views\bookUser.php on line 34.
+ 1 APPPATH\Views\bookUser.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookUser', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('bookUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->bookUser('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 17:26:46 --> ErrorException: Undefined variable $books
+[Method: GET, Route: bookUser8]
+in APPPATH\Views\bookUser.php on line 34.
+ 1 APPPATH\Views\bookUser.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookUser', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('bookUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->bookUser('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 17:27:06 --> TypeError: view(): Argument #3 ($options) must be of type array, string given, called in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\app\Controllers\Home.php on line 21
+[Method: GET, Route: bookUser8]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Home.php(21): view('bookUser', [...], '8')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->bookUser('8')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 17:27:22 --> ErrorException: Undefined variable $books
+[Method: GET, Route: bookUser8]
+in APPPATH\Views\bookUser.php on line 34.
+ 1 APPPATH\Views\bookUser.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\app\\Views\\bookUser.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookUser', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('bookUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->bookUser('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:08:10 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommand(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander1/8]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommand('8')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:08:48 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander1/8]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('8')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:08:59 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander2/8]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('8')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:10:26 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander2/1]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:13:00 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander2/1]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:14:52 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander3/1]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:14:57 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander3/1]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:16:25 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander3/1]
+in APPPATH\Controllers\Home.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:16:26 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander3/1]
+in APPPATH\Controllers\Home.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:20:54 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander3/1]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:21:25 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander3/1]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:21:27 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander3/1]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:22:25 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander31]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')
+CRITICAL - 2024-09-03 18:24:05 --> ArgumentCountError: Too few arguments to function App\Controllers\CommandController::addCommande(), 1 passed in D:\laragon\www\IGGLIA_3A_N°11_AndyFranck\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: commander31]
+in APPPATH\Controllers\commandController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CommandController->addCommande('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommandController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\IGGLIA_3A_N°11_AndyFranck\\public\\index.php')

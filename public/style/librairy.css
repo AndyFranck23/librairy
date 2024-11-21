@@ -1,0 +1,85 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 5px 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(12, 151, 116, 0.795);
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.nav a {
+    font-size: 17px;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav a:hover {
+    transform: translate(-3px, -3px);
+    text-decoration: none;
+    color: rgba(139, 243, 217, 0.952);
+}
+
+.navSearch {
+    height: 40px;
+    width: 300px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgba(12, 151, 116, 0.795);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.search {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.navSearch button {
+    padding: 5px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 0px;
+}
+.pris{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.445);
+}
+
+.pris:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.445);
+}
+
+.tabBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-right: 20px; */
+}
+
+.ajout{
+    background-color: rgba(12, 151, 116, 0.795);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 8px;
+}
+
+.ajout:hover{
+    text-decoration: none;
+}
